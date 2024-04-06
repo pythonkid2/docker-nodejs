@@ -153,9 +153,37 @@ spec:
 
 2. Use a load testing tool like `hey` or any other to simulate increased traffic and stress the application under load.
 
+
+To install `hey` on a Linux 64-bit system
+
+1. Download the `hey` binary for Linux 64-bit from the provided link:
+   ```
+   wget https://hey-release.s3.us-east-2.amazonaws.com/hey_linux_amd64
+   ```
+
+2. Make the downloaded binary executable:
+   ```
+   chmod +x hey_linux_amd64
+   ```
+
+3. Move the binary to a directory in your system's PATH to make it accessible from anywhere:
+   ```
+   sudo mv hey_linux_amd64 /usr/local/bin/hey
+   ```
+
+4. Verify the installation by running:
+   ```
+   hey --version
+   ```
+
+ use `hey` to send load to a web application. 
+
 ```
-hey -z 30s -c 50 http://<public-ip>:3000
+hey -z 30s -c 50 http://<your-web-application-url>
 ```
+
+This command will send load to the specified URL for 30 seconds with a concurrency of 50 requests. 
+
 
 
 +++
