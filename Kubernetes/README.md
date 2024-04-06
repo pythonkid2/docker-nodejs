@@ -190,3 +190,4 @@ This command will send load to the specified URL for 30 seconds with a concurren
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ```
 
+[link to the video](https://screenrec.com/share/3HJ0YGaUmy)
