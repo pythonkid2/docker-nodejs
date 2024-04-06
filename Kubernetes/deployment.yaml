@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodjs-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nodjs-app
+  template:
+    metadata:
+      labels:
+        app: nodjs-app
+    spec:
+      containers:
+        - name: nodjs-app
+          image: mjcmathew/nodjs-app:v1
+          ports:
+            - containerPort: 3000
