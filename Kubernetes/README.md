@@ -190,4 +190,12 @@ This command will send load to the specified URL for 30 seconds with a concurren
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ```
 
+**To monitor scaling behavior**
+```
+watch kubectl get hpa,pods
+```
+
 [link to the video](https://screenrec.com/share/3HJ0YGaUmy)
+
+![image](https://github.com/pythonkid2/docker-nodejs/assets/100591950/3c38bac7-32d0-44c1-b670-c6aa18f12e94)
+
