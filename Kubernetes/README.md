@@ -197,5 +197,10 @@ watch kubectl get hpa,pods
 
 [link to the video](https://screenrec.com/share/3HJ0YGaUmy)
 
+
++++
+![image](https://github.com/pythonkid2/docker-nodejs/assets/100591950/5badf4e4-3364-44c1-afb1-d6bfd6257a8a)
+
+
 ![image](https://github.com/pythonkid2/docker-nodejs/assets/100591950/3c38bac7-32d0-44c1-b670-c6aa18f12e94)
 
