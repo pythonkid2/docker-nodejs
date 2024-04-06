@@ -184,9 +184,9 @@ hey -z 30s -c 50 http://<your-web-application-url>
 
 This command will send load to the specified URL for 30 seconds with a concurrency of 50 requests. 
 
-**Kubernetes Metrics Server Installation **
+**Kubernetes Metrics Server Installation**
 
 ```
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
-``
+```
 
